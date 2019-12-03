@@ -13,7 +13,6 @@
         $id = $_GET['id'];
         $result = $crud->getAttendeeDetails($id);
     
-    
 ?>
 
 <div class="card" style="width: 18rem;">
@@ -36,6 +35,7 @@
 
     </div>
 </div>
+<br/>
 <br/>
         <a href="viewrecords.php" class="btn btn-info">Back to List</a>
         <a href="edit.php?id=<?php echo $result['attendee_id'] ?>" class="btn btn-warning">Edit</a>

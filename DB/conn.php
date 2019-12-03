@@ -20,6 +20,7 @@
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     } catch(PDOException $e) {
+        //  echo 'Hello Database';
         throw new PDOException($e->getMessage());
     }
 
