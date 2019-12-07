@@ -12,7 +12,7 @@
 
         $result = $user->getUser($username,$new_password);
         if(!$result){
-            echo '<div class="alert alert-danger">Username or Password is incorrect! Please try again. </div>';
+            echo '<div class="alert alert-danger">Username/Password is incorrect! Please try again. </div>';
         }else{
             $_SESSION['username'] = $username;
             $_SESSION['userid'] = $result['id'];

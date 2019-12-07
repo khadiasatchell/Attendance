@@ -48,6 +48,12 @@ $results = $crud->getSpecialties();
                 <small id="phoneHelp" class="form-text text-muted">We'll never share your 
                 email with anyone else.</small>
             </div>
+            <br>
+            <div class="custom-file">
+                <input type="file" accept="image/*" class="custom-file-input" id="avatar" name="avatar" >
+                <label class="custom-file-label" for="avatar">Choose Image (optional)</label>
+                <small id="avatar" class="form-text text-danger">File Upload is Optional</small>
+            </div>
 
             <button type="submit" name="submit" class="btn btn-primary">Submit</button>
         </form>
