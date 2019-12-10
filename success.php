@@ -18,7 +18,7 @@
         $specialtyName = $crud->getSpecialtyById($specialty);
         
         if($isSuccess){
-            SendEmail::SendMail($email, 'Welcome to IT Conference 2019', 'You have successfully registerted for this year\'s IT Conference');
+            SendEmail::SendMail($email, 'Welcome to IT Conference 2019', 'You are now registerted for this year\'s IT Conference');
             include 'includes/successmessage.php';
         }
         else{

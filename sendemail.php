@@ -4,14 +4,14 @@
     class SendEmail{
 
         public static function SendMail($to,$subject,$content){
-          //  $key = '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';
+            $key = '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';
 
             $email = new \SendGrid\Mail\Mail();
-            $email->setFrom("trevoir.williams@gmail.com", "Trevoir Williams");
+            $email->setFrom("khadiasatchell@gmail.com", "Khadia Satchell");
             $email->setSubject($subject);
             $email->addTo($to);
             $email->addContent("text/plain", $content);
-            //$email->addContent("text/html", $content);
+            $email->addContent("text/html", $content);
 
             $sendgrid = new \SendGrid($key);
 
