@@ -27,6 +27,8 @@
                 changeYear: true,
                 yearRange: "-100:+0",
                 dateFormat: "yy-mm-dd"
+                //dateFormat: "mm-dd-yy"
+                //dateFormat: "dd-mm-yy"
     });
         } );
         </script>

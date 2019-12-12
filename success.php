@@ -1,8 +1,8 @@
 <?php
     $title = 'Success'; 
     require_once 'includes/header.php'; 
-  //  require_once 'db/conn.php';
-  //  require_once 'sendemail.php';
+    require_once 'db/conn.php';
+    require_once 'sendemail.php';
 
 
     if(isset($_POST['submit'])){
